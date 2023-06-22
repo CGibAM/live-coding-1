@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Palabras</title>
 </head>
-<body>
+
+<body style="display:flexbox; align-content: center;">
     <h1>Lista de palabras</h1>
-    <ul>
-        <!-- imprime los elementos de la lista  -->
-    </ul>
+    <div id="myDiv">
+        <input id="comparar" type="text" placeholder="Ingresa la palabra a comparar">
+        <br>
+        <br>
+        <input id="inputLits" type="text" placeholder="Ingresa la lista de palabras">
+        <ul id="myList">
+            <!-- imprime los elementos de la lista  -->
+        </ul>
+
+        <button id="boton">Aceptar</button>
+    </div>
+
+    <script src="/app.js"></script>
 </body>
+
 </html>
